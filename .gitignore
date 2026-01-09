@@ -1,0 +1,44 @@
+# ==== Python 虛擬環境 ====
+venv/
+env/
+*.env
+
+# ==== Python 快取檔案 ====
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyd
+*.pdb
+*.egg-info/
+*.egg
+
+# ==== IDE / 編輯器設定 ====
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# ==== 作業系統檔案 ====
+.DS_Store
+Thumbs.db
+
+# ==== 輸出資料夾 / OCR 結果 ====
+output/
+inference_results/
+log_output/
+
+# ==== Notebook / Jupyter ====
+.ipynb_checkpoints/
+*.ipynb
+
+# ==== Git LFS 或其他大型檔案備註 ====
+# 可將大檔案用 git-lfs 管理，如模型檔或影像
+*.pkl
+*.h5
+*.pt
+*.pth
+*.onnx
+
+# ==== 測試圖片資料夾 ====
+images/raw/
